@@ -6,28 +6,28 @@
 class Prk < Formula
   desc "Command-line client for a self-hosted, Cloudflare-backed secrets manager"
   homepage "https://github.com/yashau/prick"
-  version "2026.819.2"
+  version "2026.901.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/yashau/prick/releases/download/v2026.819.2/prk-2026.819.2-aarch64-apple-darwin.tar.gz"
-      sha256 "8eedd0292e0149cab8c067dc83bfbafad391f3fb61c361bf6ada50511112a13c"
+      url "https://github.com/yashau/prick/releases/download/v2026.901.0/prk-2026.901.0-aarch64-apple-darwin.tar.gz"
+      sha256 "d71bad4d3f4134bd1df37c488c7620522677507dff03fc6e5ceaeea092b92453"
     end
     on_intel do
-      url "https://github.com/yashau/prick/releases/download/v2026.819.2/prk-2026.819.2-x86_64-apple-darwin.tar.gz"
-      sha256 "1f476825695e6978649aed8fd1f41d2b987a15f58cdc3f4c0b475afd59ae8197"
+      url "https://github.com/yashau/prick/releases/download/v2026.901.0/prk-2026.901.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8b481b7be16ac468ff48d6ceeaf6185aef8cb52cd09351342079bd364180c32f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yashau/prick/releases/download/v2026.819.2/prk-2026.819.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5f9081136d6f710df7b5870fcb17ac10ff393d9d151ca279b6a8d4c328674a48"
+      url "https://github.com/yashau/prick/releases/download/v2026.901.0/prk-2026.901.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d25603f0b9fda36eb169712af53d7bb0efd0da8d3eb7b529623b4135d6694a9f"
     end
     on_intel do
-      url "https://github.com/yashau/prick/releases/download/v2026.819.2/prk-2026.819.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4e75af4a15e9c1db9f69ac3b0e182614b3868ed7312e635e428a52cc4fe18ba5"
+      url "https://github.com/yashau/prick/releases/download/v2026.901.0/prk-2026.901.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1203934baed77ed6afb509289e28289bfed63857ca5e823413d242e9f1ecfb41"
     end
   end
 
